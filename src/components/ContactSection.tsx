@@ -10,7 +10,7 @@ import {
   Linkedin,
   MessageCircle,
   InstagramIcon,
-  BookOpen,
+  Twitter,
 } from "lucide-react";
 
 const ContactSection = () => {
@@ -19,14 +19,14 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const phoneNumber = "+919550533315";
+    const phoneNumber = "+91 9910956433";
     const text = `Name: ${form.name}\nEmail: ${form.email}\nMessage: ${form.message}`;
     const encodedText = encodeURIComponent(text);
     window.open(`https://wa.me/${phoneNumber}?text=${encodedText}`, "_blank");
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText("pappuridurgavaraprasad4pl@gmail.com");
+    navigator.clipboard.writeText("hardikdhameeja2105@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -52,7 +52,7 @@ const ContactSection = () => {
                   Email
                 </p>
                 <p className="font-mono text-sm break-all">
-                  pappuridurgavaraprasad4pl@gmail.com
+                  hardikdhameeja2105@gmail.com
                 </p>
               </div>
               <button
@@ -76,7 +76,7 @@ const ContactSection = () => {
                 <p className="text-xs uppercase tracking-widest text-foreground/50 mb-1">
                   Whatsapp
                 </p>
-                <p className="font-mono text-sm">+91 9550533315</p>
+                <p className="font-mono text-sm">+91 9910956433</p>
               </div>
             </div>
           </div>
@@ -87,12 +87,12 @@ const ContactSection = () => {
             </p>
             <div className="flex gap-4">
               {[
-                { Icon: Github, href: "https://github.com/VARA4u-tech" },
-                { Icon: Linkedin, href: "https://linkedin.com/in/vara4u" },
-                { Icon: InstagramIcon, href: "https://instagram.com/d_v_p6" },
+                { Icon: Github, href: "https://github.com/hardik211005" },
+                { Icon: Linkedin, href: "https://www.linkedin.com/in/hardik-dhameeja-9700192b0/" },
+                { Icon: InstagramIcon, href: "https://www.instagram.com/hxrdik.__/" },
                 {
-                  Icon: BookOpen,
-                  href: "https://durgavaraprasad.hashnode.dev/",
+                  Icon: Twitter,
+                  href: "https://x.com/dhameeja90060",
                 },
               ].map(({ Icon, href }, i) => (
                 <a

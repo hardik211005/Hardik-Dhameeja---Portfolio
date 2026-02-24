@@ -4,7 +4,7 @@ import {
   ArrowUp,
   Heart,
   InstagramIcon,
-  BookOpen,
+  Twitter,
 } from "lucide-react";
 
 const Footer = () => {
@@ -15,21 +15,21 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/VARA4u-tech", label: "GitHub" },
+    { icon: Github, href: "https://github.com/hardik211005", label: "GitHub" },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/vara4u",
+      href: "https://www.linkedin.com/in/hardik-dhameeja-9700192b0/",
       label: "LinkedIn",
     },
     {
       icon: InstagramIcon,
-      href: "https://instagram.com/d_v_p6",
+      href: "https://www.instagram.com/hxrdik.__/",
       label: "Instagram",
     },
     {
-      icon: BookOpen,
-      href: "https://durgavaraprasad.hashnode.dev/",
-      label: "Blog",
+      icon: Twitter,
+      href: "https://x.com/dhameeja90060",
+      label: "Twitter",
     },
   ];
 
@@ -49,7 +49,7 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="md:col-span-2 space-y-6">
             <h2 className="text-2xl font-black uppercase tracking-tighter italic">
-              DURGA VARA PRASAD<span className="text-foreground">.....</span>
+              HARDIK DHAMEEJA<span className="text-foreground">.....</span>
             </h2>
             <p className="text-foreground/60 max-w-sm leading-relaxed">
               Full-stack developer focused on building high-performance web
@@ -109,12 +109,12 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-black/5 flex flex-col md:flex-row justify-between items-center gap-6 px-4 md:px-12 lg:px-0">
           <p className="text-xs font-mono text-black/40 uppercase tracking-widest text-center md:text-left">
-            © {currentYear} Pappuri Durga Vara Prasad
+            © {currentYear} HARDIK DHAMEEJA
           </p>
           <p className="text-xs font-mono text-black/40 flex items-center justify-center gap-2 uppercase tracking-widest text-center md:text-right">
             Designed & Engineered with{" "}
             <Heart className="w-3.5 h-3.5 text-black fill-black animate-heartbeat inline-block" />{" "}
-            by Vara
+            by HARDIK
           </p>
         </div>
       </div>
