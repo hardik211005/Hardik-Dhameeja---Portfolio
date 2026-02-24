@@ -35,7 +35,7 @@ const Finale = () => {
   ];
 
   const marqueeTags = [
-    "Durga Vara Prasad 🚀",
+    "Hardik Dhameeja 🚀",
     "Full Stack Dev | Flutter | React | Blockchain | AI",
     "Designing clean UI/UX + Smart solutions🔖",
     "Exploring tech through Vibe Coding",

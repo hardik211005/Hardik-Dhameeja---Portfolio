@@ -10,9 +10,9 @@ import {
 } from "lucide-react";
 
 const roles = [
-  "Flutter Developer",
+  "Frontend Developer",
   "React Engineer",
-  "Blockchain Builder",
+  "Junior Data Analyst",
   "Full-Stack Creator",
 ];
 
@@ -154,9 +154,9 @@ const HeroSection = () => {
           className="heading-brutal leading-[0.85]"
           style={{ fontSize: "clamp(48px, 10vw, 130px)" }}
         >
-          Durga Vara
+          Hardik
           <br />
-          <span className="text-foreground/20">Prasad.</span>
+          <span className="text-foreground/20">Dhameeja.</span>
         </h1>
 
         {/* Typewriter role */}
