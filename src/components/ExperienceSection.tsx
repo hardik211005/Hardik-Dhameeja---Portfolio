@@ -2,11 +2,11 @@ import SectionBlock from "./SectionBlock";
 
 const experiences = [
   {
-    role: "MERN Stack Developer (Freelance)",
-    company: "Academy of Tech Masters (AOTMS)",
-    period: "[23DEC 2025 – 23JAN 2026]",
+    role: "Aspiring MERN Stack Developer | Open to Work",
+    company: "Self Learning & Independent Projects",
+    period: "[2024 – Present]",
     description:
-      "🚀Freelance Project – Successfully Delivered Completed a real-world client project with my team using [Tech Stack – e.g., React, Node.js, MongoDB]. Key learnings: 🔹 Building scalable features 🔹 Team collaboration & Git workflows 🔹 Meeting client expectations & deadlines.",
+      "🚀 Actively building full-stack web applications using MongoDB, Express.js, React, Next.js and Node.js. Focused on creating real-world projects, improving backend architecture, and practicing Git workflows. Open to internships, freelance opportunities, and collaborative development projects."
   },
 ];
 
