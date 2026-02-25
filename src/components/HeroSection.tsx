@@ -6,7 +6,6 @@ import {
   Mail,
   ChevronDown,
   InstagramIcon,
-  BookOpen,
 } from "lucide-react";
 
 const roles = [
@@ -182,11 +181,11 @@ const HeroSection = () => {
         {/* Tech tags */}
         <div className="flex flex-wrap gap-2 justify-center mt-8 max-w-md mx-auto">
           {[
-            "Flutter",
+            "Next.js",
             "React",
             "TypeScript",
             "Firebase",
-            "Blockchain",
+            "Vibe Coding",
             "Node.js",
           ].map((tech) => (
             <span
@@ -203,27 +202,27 @@ const HeroSection = () => {
           {[
             {
               Icon: Github,
-              href: "https://github.com/VARA4u-tech",
+              href: "https://github.com/hardik211005",
               label: "GitHub",
             },
             {
               Icon: Linkedin,
-              href: "https://www.linkedin.com/in/durga-vara-prasad-pappuri-1797701b6/",
+              href: "https://www.linkedin.com/in/hardik-dhameeja-9700192b0/",
               label: "LinkedIn",
             },
             {
               Icon: InstagramIcon,
-              href: "https://www.instagram.com/d_v_p6/",
+              href: "https://www.instagram.com/hxrdik.__/",
               label: "Instagram",
             },
             {
-              Icon: BookOpen,
-              href: "https://durgavaraprasad.hashnode.dev/",
-              label: "Blog",
+              Icon: Twitter,
+              href: "https://x.com/dhameeja90060",
+              label: "Twitter",
             },
             {
               Icon: Mail,
-              href: "mailto:pappuridurgavaraprasad4pl@gmail.com",
+              href: "mailto:hardikdhameeja2105@gmail.com",
               label: "Email",
             },
           ].map(({ Icon, href, label }, i) => (

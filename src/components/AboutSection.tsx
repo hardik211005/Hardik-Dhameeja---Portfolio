@@ -14,7 +14,7 @@ const AboutSection = () => (
           effectively.
         </p>
         <p className="body-text max-w-2xl mt-6">
-          With experience across mobile and web platforms, I bring a unique
+          With experience across various web platforms, I bring a unique
           perspective to every project — blending technical rigor with creative
           sensibility.
         </p>

@@ -19,7 +19,7 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const phoneNumber = "+91 9910956433";
+    const phoneNumber = "9910956433";
     const text = `Name: ${form.name}\nEmail: ${form.email}\nMessage: ${form.message}`;
     const encodedText = encodeURIComponent(text);
     window.open(`https://wa.me/${phoneNumber}?text=${encodedText}`, "_blank");
