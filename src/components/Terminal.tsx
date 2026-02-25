@@ -22,7 +22,7 @@ const Terminal = () => {
       type: "response",
       content: (
         <div className="mb-2">
-          <p>Welcome to Vara's Portfolio Terminal v1.0.0</p>
+          <p>Welcome to Hardik Dhameeja's Portfolio Terminal v1.0.0</p>
           <p>
             I am a conversational AI. Type{" "}
             <span className="text-green-400">help</span> for commands, or just
@@ -85,7 +85,7 @@ const Terminal = () => {
           </div>
         );
       case "about":
-        return "I'm Pappuri Durga Vara Prasad, a passionate developer specializing in Flutter, React, and Blockchain technologies. I build modern, high-performance applications.";
+        return "I'm Hardik Dhameeja, a passionate developer specializing in Flutter, React, and Blockchain technologies. I build modern, high-performance applications.";
       case "skills":
         return (
           <div>
@@ -116,32 +116,32 @@ const Terminal = () => {
             <p>
               Email:{" "}
               <a
-                href="mailto:pappuridurgavaraprasad4pl@gmail.com"
+                href="mailto:hardikdhameeja2105@gmail.com"
                 className="text-blue-400 hover:underline"
               >
-                pappuridurgavaraprasad4pl@gmail.com
+                hardikdhameeja2105@gmail.com
               </a>
             </p>
             <p>
               LinkedIn:{" "}
               <a
-                href="https://www.linkedin.com/in/durga-vara-prasad-pappuri-1797701b6/"
+                href="https://www.linkedin.com/in/hardik-dhameeja-9700192b0/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:underline"
               >
-                www.linkedin.com/in/durga-vara-prasad-pappuri-1797701b6/
+                www.linkedin.com/in/hardik-dhameeja-9700192b0/
               </a>
             </p>
             <p>
               GitHub:{" "}
               <a
-                href="https://github.com/VARA4u-tech"
+                href="https://github.com/hardik211005"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:underline"
               >
-                github.com/VARA4u-tech
+                github.com/hardik211005
               </a>
             </p>
           </div>

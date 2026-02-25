@@ -15,23 +15,23 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/hardik211005", label: "GitHub" },
-    {
-      icon: Linkedin,
-      href: "https://www.linkedin.com/in/hardik-dhameeja-9700192b0/",
-      label: "LinkedIn",
-    },
-    {
-      icon: InstagramIcon,
-      href: "https://www.instagram.com/hxrdik.__/",
-      label: "Instagram",
-    },
-    {
-      icon: Twitter,
-      href: "https://x.com/dhameeja90060",
-      label: "Twitter",
-    },
-  ];
+  { Icon: Github, href: "https://github.com/hardik211005", label: "GitHub" },
+  {
+    Icon: Linkedin,
+    href: "https://www.linkedin.com/in/hardik-dhameeja-9700192b0/",
+    label: "LinkedIn",
+  },
+  {
+    Icon: InstagramIcon,
+    href: "https://www.instagram.com/hxrdik.__/",
+    label: "Instagram",
+  },
+  {
+    Icon: Twitter,
+    href: "https://x.com/dhameeja90060",
+    label: "Twitter",
+  },
+];
 
   const navLinks = [
     { label: "Home", href: "#hero" },
@@ -66,7 +66,7 @@ const Footer = () => {
                   className="p-3 border-2 border-black hover:bg-black hover:text-white transition-all duration-300 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
                   aria-label={link.label}
                 >
-                  <link.icon className="w-5 h-5" />
+                  <link.Icon className="w-5 h-5" />
                 </a>
               ))}
             </div>
@@ -114,7 +114,7 @@ const Footer = () => {
           <p className="text-xs font-mono text-black/40 flex items-center justify-center gap-2 uppercase tracking-widest text-center md:text-right">
             Designed & Engineered with{" "}
             <Heart className="w-3.5 h-3.5 text-black fill-black animate-heartbeat inline-block" />{" "}
-            by HARDIK
+            by HARDIK DHAMEEJA
           </p>
         </div>
       </div>
