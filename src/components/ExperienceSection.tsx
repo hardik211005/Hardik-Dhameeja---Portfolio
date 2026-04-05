@@ -6,7 +6,7 @@ const experiences = [
     company: "Self Learning & Independent Projects",
     period: "[2024 – Present]",
     description:
-      "🚀 Actively building full-stack web applications using MongoDB, Express.js, React, Next.js and Node.js. Focused on creating real-world projects, improving backend architecture, and practicing Git workflows. Open to internships, freelance opportunities, and collaborative development projects."
+      "Actively building full-stack web applications using MERN/PERN Stack. Focused on creating real-world projects, improving backend architecture, and practicing Git workflows. Open to internships, freelance opportunities, and collaborative development projects."
   },
 ];
 

@@ -25,7 +25,7 @@ const AboutSection = () => (
           aesthetic, I rapidly translate ideas into fluid, highly polished
           digital experiences while maintaining clean and scalable architecture.
         </p>
-        <a
+        {/* <a
           href="https://durgavaraprasad.hashnode.dev/"
           target="_blank"
           rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const AboutSection = () => (
         >
           <BookOpen className="w-4 h-4" />
           <span>Read My Technical Blog</span>
-        </a>
+        </a> */}
       </div>
     </div>
   </SectionBlock>

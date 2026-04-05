@@ -255,7 +255,7 @@ const HeroSection = () => {
       {/* Bottom-left info */}
       <div className="absolute bottom-10 left-6 md:left-10 z-10">
         <span className="text-foreground/80 text-xs tracking-[0.2em] uppercase font-mono font-medium">
-          www.prasad.dev
+         Designing with purpose. Building with precision.
         </span>
       </div>
 

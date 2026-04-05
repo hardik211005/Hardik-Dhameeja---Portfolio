@@ -12,7 +12,7 @@ const AnimatedAvatar = () => {
       <div className="relative w-full h-full border-2 border-black bg-white overflow-hidden group-hover:-translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300">
         <div className="w-full h-full animate-[float_6s_ease-in-out_infinite]">
           <img
-            src="https://i.ibb.co/20jtF9Lm/Chat-GPT-Image-Feb-14-2026-10-13-36-PM.png"
+            src="https://media.discordapp.net/attachments/1126143501227274252/1490316562991943832/IMG_20260402_213450_695.webp?ex=69d39cf5&is=69d24b75&hm=b11c8af082c56721b4dac8e1f326dac740c4de8254d63f3e06a32e49e0632f3f&=&format=webp&width=919&height=930"
             alt="Hardik Dhameeja"
             className="w-full h-full object-cover object-top"
             loading="eager"

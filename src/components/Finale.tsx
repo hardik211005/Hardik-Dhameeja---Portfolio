@@ -94,17 +94,18 @@ const Finale = () => {
           ))}
         </div>
 
-        <div className="flex flex-col md:flex-row items-center gap-4 text-center">
-          <div className="flex items-center gap-2 px-4 py-2 bg-green-100 border-2 border-green-600 rounded-full">
-            <span className="w-2 h-2 bg-green-600 rounded-full animate-pulse" />
-            <span className="text-[10px] font-black uppercase tracking-widest text-green-800">
-              Available for Freelance Projects
-            </span>
-          </div>
-          <p className="text-xs font-mono text-black/70 uppercase tracking-widest leading-loose max-w-sm">
-            From India 🇮🇳 to the World 🌍 • Crafting Scalable Digital Products
-          </p>
-        </div>
+        <div className="flex flex-col items-center gap-3 text-center">
+  <div className="flex items-center gap-2 px-4 py-2 bg-green-100 border-2 border-green-600 rounded-full">
+    <span className="w-2 h-2 bg-green-600 rounded-full animate-pulse" />
+    <span className="text-[10px] font-black uppercase tracking-widest text-green-800">
+      Available for Freelance Projects
+    </span>
+  </div>
+
+  <p className="text-xs font-mono text-black/70 uppercase tracking-widest leading-loose max-w-sm text-center">
+    From India 🇮🇳 to the World 🌍 • Crafting Scalable Digital Products
+  </p>
+</div>
       </div>
 
       {/* Extreme Bottom Bar */}
