@@ -22,7 +22,7 @@ const skillCategories = [
   // },
   {
     title: "Backend & DB",
-    skills: ["Node.js", "Firebase", "MongoDB", "Hive", "REST APIs", "Supabase","NeonDB","PostgreSQL","Prisma"],
+    skills: ["Node.js", "Firebase", "MongoDB", "Hive", "REST APIs", "Supabase","NeonDB","PostgreSQL","Prisma","JWT","Google Cloud"],
   },
   {
     title: "Web3 & AI",
