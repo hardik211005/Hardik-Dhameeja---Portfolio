@@ -10,27 +10,27 @@ const skillCategories = [
       "JavaScript",
       "Tailwind CSS",
       "Zustand",
-      "TanStack Query",
+      "Next.js",
       "Framer Motion",
       "Shadcn UI",
       "Vite",
     ],
   },
-  {
-    title: "Mobile",
-    skills: ["Flutter", "Dart", "Riverpod", "Material Design"],
-  },
+  // {
+  //   title: "Mobile",
+  //   skills: ["Flutter", "Dart", "Riverpod", "Material Design"],
+  // },
   {
     title: "Backend & DB",
-    skills: ["Node.js", "Firebase", "MongoDB", "Hive", "REST APIs"],
+    skills: ["Node.js", "Firebase", "MongoDB", "Hive", "REST APIs", "Supabase","NeonDB","PostgreSQL","Prisma"],
   },
   {
     title: "Web3 & AI",
-    skills: ["Aptos", "Move", "AI Integration", "Prompt Engineering"],
+    skills: ["AI Integration", "Prompt Engineering" , "OpenAI"],
   },
   {
     title: "Tools & Others",
-    skills: ["Git", "GitHub", "Figma", "Vitest", "Lucide React", "Vercel"],
+    skills: ["Git", "GitHub", "Figma", "Vitest", "Lucide React", "Vercel","BetterAuth","OpenRouter","Render","Netlify"],
   },
 ];
 
@@ -40,7 +40,7 @@ const SkillsSection = () => (
       {skillCategories.map((category, idx) => (
         <div
           key={category.title}
-          className="group opacity-0 animate-in fade-in slide-in-from-bottom-4 fill-mode-forwards"
+          className="group opacity-10 text-bold animate-in fade-in slide-in-from-bottom-4 fill-mode-forwards"
           style={{
             animationDelay: `${idx * 100}ms`,
             animationDuration: "600ms",
@@ -48,7 +48,7 @@ const SkillsSection = () => (
           }}
         >
           <div className="flex flex-col h-full border-t-2 border-black pt-4">
-            <h3 className="text-xs font-mono uppercase tracking-[0.2em] mb-6 text-black/40 group-hover:text-black transition-colors duration-300">
+            <h3 className="text-xs text-bold font-mono uppercase tracking-[0.2em] mb-6 text-black/90 group-hover:text-black transition-colors duration-300">
               {category.title}
             </h3>
             <div className="flex flex-wrap gap-2">

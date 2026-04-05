@@ -90,23 +90,23 @@ const Terminal = () => {
         return (
           <div>
             <p className="mb-1">CORE STACK:</p>
-            <p>• Flutter / Dart</p>
-            <p>• React / TypeScript</p>
-            <p>• Firebase / Node.js</p>
-            <p>• Blockchain (Aptos/Move)</p>
+            <p>• Frontend Development </p>
+            <p>• React/Next/ TypeScript</p>
+            <p>• Express/PostgreSQL/ Node.js</p>
+            <p>• Data Analytics </p>
           </div>
         );
       case "projects":
         return (
           <div className="flex flex-col gap-1">
             <a href="#projects" className="text-blue-400 hover:underline">
-              1. EduPredict (AI Analytics)
+              1. AI-Site Builder (AI)
             </a>
             <a href="#projects" className="text-blue-400 hover:underline">
-              2. AOTMS (Transport Mgmt)
+              2. Medico (Doctor-Appointment App)
             </a>
             <a href="#projects" className="text-blue-400 hover:underline">
-              3. Vara's Portfolio
+              3. Hardik's Portfolio
             </a>
           </div>
         );
@@ -156,7 +156,7 @@ const Terminal = () => {
 
     // Greeting
     if (lower.match(/^(hi|hello|hey|greetings)/)) {
-      return "Hello! I'm Vara's virtual assistant. How can I help you today?";
+      return "Hello! I'm Hardik's virtual assistant. How can I help you today?";
     }
 
     // About
@@ -280,7 +280,7 @@ const Terminal = () => {
             />
             <div className="w-3 h-3 rounded-full bg-green-500 hover:bg-green-600 cursor-pointer" />
             <span className="ml-2 text-white/60 text-xs">
-              guest@vara-portfolio:~
+              guest@Hardik-portfolio:~
             </span>
           </div>
           <div className="flex items-center gap-3 text-white/40">

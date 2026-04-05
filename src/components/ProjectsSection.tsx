@@ -5,69 +5,79 @@ import { Badge } from "./ui/badge";
 
 const projects = [
   {
-    title: "SafeTrip Pro",
-    isNew: true,
-    description:
-      "A premium, AI-powered navigation and safety companion featuring real-time intelligence, drowsiness detection, SOS guardian network, and predictive analytics for a safer driving experience.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Tailwind",
-      "Supabase",
-      "Framer Motion",
-      "Vite",
-    ],
-    githubUrl:
-      "https://github.com/VARA4u-tech/safe-trip-smart-driving-safety-application",
-    liveUrl: "https://safe-trip-smart-driving-safety-appl.vercel.app",
-  },
+  title: "AI Site Builder",
+  isNew: true,
+  description:
+    "An AI-powered website builder that generates fully responsive and modern websites from simple user prompts. It streamlines the development process by automatically creating layouts, components, and styling—making web creation faster and more accessible.",
+  tags: [
+    "OpenAI",
+    "React",
+    "TypeScript",
+    "Tailwind",
+    "PostgreSQL",
+    "Express",
+  ],
+  githubUrl: "https://github.com/hardik211005/AI-Website-Builder",
+  liveUrl: "https://ai-website-builder-woad.vercel.app/",
+},
   {
-    title: "Academy of Tech Masters (AOTMS)",
-    description:
-      "A premier tech education platform featuring AI-powered assistance, interactive student dashboards, and comprehensive course management. Delivered as a high-performance freelance project for a real-world client.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Tailwind",
-      "Vite",
-      "Zustand",
-      "Framer Motion",
-    ],
-    githubUrl: "https://github.com/VARA4u-tech/AOTMS",
-    liveUrl: "https://aotms.in",
-  },
+  title: "Medico - Doctor Appointment System",
+  description:
+    "A full-stack healthcare platform that streamlines doctor appointment booking with features like real-time availability tracking, secure patient data management, and seamless communication—delivering a smooth and reliable user experience.",
+  tags: [
+    "MongoDB",
+    "Express",
+    "React",
+    "Node.js",
+    "JWT",
+    "Tailwind",
+  ],
+  githubUrl: "https://github.com/hardik211005/Medico",
+  liveUrl: "https://medico-frontend-beta.vercel.app/",
+},
   {
-    title: "Elara Cosmetics",
-    description:
-      "A luxury Ayurvedic e-commerce platform with a focus on premium user experience. Features category-based filtering, shopping cart, wishlist, and a custom WhatsApp-integrated checkout system.",
-    tags: ["React", "TypeScript", "Tailwind", "Vite", "Shadcn UI", "Vitest"],
-    githubUrl:
-      "https://github.com/VARA4u-tech/Elara-Cosmetics-E--Commerce-Website-",
-    liveUrl: "https://elara-cosmetics.vercel.app/",
-  },
+  title: "CodeQuest – Gamified Learning Platform",
+  description:
+    "A full-stack gamified coding platform that makes learning interactive through challenges, XP rewards, leaderboards, and an in-built code compiler. Designed to boost consistency and engagement by turning programming practice into a game-like experience.",
+  tags: [
+    "Next.js",
+    "Node.js",
+    "Express",
+    "Prisma",
+    "NextAuth",
+    "Tailwind",
+  ],
+  githubUrl: "https://github.com/hardik211005/codequest-ai",
+  liveUrl: "https://codequest-two.vercel.app/",
+},
   {
-    title: "EduPredict",
-    description:
-      "An AI-powered predictive analytics system for student success, featuring a unique comic book-inspired UI, interactive dashboards, and real-time at-risk student alerts.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Tailwind",
-      "Vite",
-      "Lucide React",
-      "Framer Motion",
-    ],
-    githubUrl: "https://github.com/VARA4u-tech/EduPredict",
-    liveUrl: "https://edu-pridect.vercel.app/",
-  },
+  title: "Project Management Platform",
+  description:
+    "A full-stack project management platform built to streamline team collaboration and productivity. It enables users to create projects, assign tasks, manage deadlines, track progress in real time, and collaborate efficiently with role-based access control.",
+  tags: [
+    "React.js",
+    "Clerkauth",
+    "Express",
+    "Prisma",
+    "Tailwind",
+  ],
+  githubUrl: "https://github.com/hardik211005/PROJECT-MANAGEMENT",
+  liveUrl: "https://project-management-gs.vercel.app/",
+},
   {
-    title: "SmartQuack",
-    description:
-      "A delightful, offline-first task manager with a gamified twist! Features a reactive duck mascot that changes moods based on your productivity progress.",
-    tags: ["Flutter", "Riverpod", "Firebase", "Hive", "Dart"],
-    githubUrl: "https://github.com/VARA4u-tech/my-first-flutter-app",
-    liveUrl: "https://github.com/VARA4u-tech/my-first-flutter-app",
-  },
+  title: "Trimmr – URL Shortener & Analytics Platform",
+  description:
+    "A full-stack URL shortening platform with built-in analytics and tracking. It allows users to create custom short links, monitor real-time click activity, analyze geographic data, generate QR codes, and manage URLs efficiently for marketing and business use cases.",
+  tags: [
+    "React",
+    "REST APIs",
+    "Analytics",
+    "Charts.js",
+    "Tailwind",
+  ],
+  githubUrl: "https://github.com/hardik211005/url-shortener",
+  liveUrl: "https://urlshortener-topaz.vercel.app/",
+},
 ];
 
 const ProjectsSection = () => (
